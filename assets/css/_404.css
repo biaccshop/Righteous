@@ -1,6 +1,7 @@
 /* Errorpage section */
 .Errorpage {
-    min-height: calc(100vh - 14rem);
+    min-height: calc(100vh);
+    padding: 0 0 10rem 0;
     color: var(--color-text-light);
     display: flex;
     justify-content: center;
@@ -70,7 +71,7 @@
 /*  834px - 1068px - Laptop Sections */
 @media screen and (min-width: 834px) and (max-width: 1068px) {
     .Errorpage {
-        padding: 0 0 10rem 0;
+        padding: 0 0 15rem 0;
     }
 
     .Errorpage-img i img {
@@ -85,7 +86,6 @@
 
     .Errorpage {
         padding: 5rem 0 20rem 0;
-        min-height: auto;
     }
 
     .Errorpage-content {
@@ -123,7 +123,6 @@
 
     .Errorpage {
         padding: 5rem 0 20rem 0;
-        min-height: auto;
     }
 
     .Errorpage-content {

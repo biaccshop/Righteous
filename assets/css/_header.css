@@ -1,35 +1,37 @@
 /* 1069px and Upper - Desktop Header */
 .header {
-    height: 14rem;
+    height: 11rem;
     width: 100%;
     padding: 0 4rem;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: end;
+    z-index: 100;
 }
 
 .navigation {
     z-index: 100;
-    height: 9rem;
+    height: 6rem;
     width: 120rem;
-    border-radius: 50px;
-    padding: 0 2.5rem;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
-    background-color: var(--color-btn-dark);
-    box-shadow: 0 0 75px rgb(0, 0, 0);
+    align-items: center;
 }
 
 .navigation .logo {
-    height: 8rem;
+    height: 6rem;
     width: auto;
     display: flex;
 }
 
-.navigation .navbar a {
+.navigation .navbar {
     margin-left: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.navigation .navbar a {
+    margin-right: 4rem;
     font-size: 1.7rem;
     color: var(--color-text-dark);
     font-weight: var(--font-weight-bold);
@@ -41,12 +43,13 @@
     text-shadow: 0 0 8px rgb(252, 252, 252);
 }
 
-.nav-right {
+.navigation .nav-right {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-left: auto;
 }
 
 #black-bar {
@@ -56,7 +59,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: var(--color-dark);
+    background-color: var(--color-background);
     display: none;
 }
 
@@ -80,22 +83,15 @@
 /*  834px - 1068px - Laptop Header */
 @media screen and (min-width: 834px) and (max-width: 1068px) {
 
-    #btn-blackbar {
-        z-index: 101;
-        display: block;
-    }
-
-    .header {
-        height: 13rem;
-    }
-
     .navigation .navbar {
-        display: none;
+        margin-left: 3rem;
     }
 
-    .nav-right {
-        width: 24.5rem;
+    .navigation .navbar a {
+        margin-right: 3rem;
+        font-size: 1.4rem;
     }
+
 }
 
 
@@ -108,30 +104,18 @@
     }
 
     .header {
+        position: fixed;
         height: 8rem;
-        padding: 0;
+        align-items: center;
+        background-color: var(--color-dark);
     }
 
     .navigation .navbar {
         display: none;
     }
 
-    .navigation {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 8rem;
-        padding: 0 2.5rem 0 1.5rem;
-        border-radius: 0;
-    }
-
-    .navigation .logo {
-        height: 7rem;
-    }
-
     .nav-right {
-        width: 24.5rem;
+        width: 25rem;
     }
 }
 
@@ -144,29 +128,21 @@
     }
 
     .header {
-        height: 8rem;
-        padding: 0;
+        position: fixed;
+        height: 6rem;
+        align-items: center;
+        background-color: var(--color-dark);
     }
 
     .navigation .navbar {
         display: none;
     }
 
-    .navigation {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 8rem;
-        padding: 0 2.5rem 0 1.5rem;
-        border-radius: 0;
-    }
-
     .navigation .logo {
-        height: 7rem;
+        height: 5rem;
     }
 
-    .navigation #btn-discord {
+    .navigation .btn-getstarted {
         display: none;
     }
 }

@@ -14,10 +14,6 @@
 }
 
 /* Displays */
-.hidden {
-    display: none;
-}
-
 .block {
     display: block;
 }
@@ -51,37 +47,4 @@
 
 .padding-right-2 {
     padding-right: 2rem;
-}
-
-/* Background Colors for testing */
-.white {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.red {
-    background-color: rgb(255, 0, 0, 0.10);
-}
-
-.green {
-    background-color: rgba(0, 128, 0, 0.20);
-}
-
-.blue {
-    background-color: rgba(55, 0, 255, 0.2);
-}
-
-.aqua {
-    background-color: rgba(0, 204, 255, 0.2);
-}
-
-.yellow {
-    background-color: rgba(208, 255, 0, 0.2);
-}
-
-.pink {
-    background-color: rgba(255, 0, 234, 0.2);
-}
-
-.purple {
-    background-color: rgba(132, 0, 255, 0.2);
 }

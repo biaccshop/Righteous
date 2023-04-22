@@ -63,25 +63,13 @@ img {
 /* Root Starting */
 :root {
     /* Colors */
-    --color-primary: rgb(1, 233, 254);
-    --color-secondary: rgb(0, 145, 158);
-    --color-dark: rgb(19, 21, 25);
-    --color-text-light: rgb(252, 252, 252);
+    --color-primary: #5C07CB;
+    --color-secondary: #7656A0;
+    --color-background: #171717;
+    --color-dark: #202020;
     --color-text-dark: rgb(140, 141, 143);
-    --color-text-hover: rgb(203, 203, 204);
-    --color-btn-light: rgb(33, 36, 44);
-    --color-btn-dark: rgb(30, 33, 40);
-    /* Gradient colors */
-    --color-gradient-1: linear-gradient(to right, rgb(243, 90, 246) -200%, rgb(48, 78, 235) -100%, rgb(243, 90, 246) 0%, rgb(48, 78, 235) 100%);
-    --color-gradient-2: linear-gradient(to right, rgb(255, 184, 0) -200%, rgb(243, 90, 246) -100%, rgb(255, 184, 0) 0%, rgb(243, 90, 246) 100%);
-    --color-gradient-3: linear-gradient(to right, rgb(255, 241, 116) -200%, rgb(255, 184, 0) -100%, rgb(255, 241, 116) 0%, rgb(255, 184, 0) 100%);
-    --color-gradient-4: linear-gradient(to right, rgb(48, 78, 235) -200%, rgb(65, 217, 251) -100%, rgb(48, 78, 235) 0%, rgb(65, 217, 251) 100%);
-    --color-gradient-5: linear-gradient(to right, rgb(65, 217, 251) -200%, rgb(153, 239, 131) -100%, rgb(65, 217, 251) 0%, rgb(153, 239, 131) 100%);
-    --color-gradient-6: linear-gradient(to right, rgb(153, 239, 131) -200%, rgb(255, 241, 116) -100%, rgb(153, 239, 131) 0%, rgb(255, 241, 116) 100%);
-    /* Other colors */
-    --color-success: #2ecc71;
-    --color-warning: #f1c40f;
-    --color-error: #e74c3c;
+    --color-text-light: #ffffff;
+    --color-text-hover: #BDBDBD;
     /* Font weights */
     --font-weight-normal: 400;
     --font-weight-bold: 700;
@@ -101,20 +89,42 @@ img {
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--color-btn-light);
+    background: var(--color-dark);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--color-secondary);
+    background: var(--color-primary);
     -webkit-border-radius: 50px;
     -webkit-box-shadow: 0 2px 5px var(--color-dark);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--color-primary);
+    background: var(--color-secondary);
 }
 
 /* Scrollbar End */
+
+
+
+/* Selections Starting */
+div::selection,
+span::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+a::selection,
+p::selection,
+ul::selection,
+ol::selection,
+button::selection,
+img::selection {
+  color: var(--color-primary);
+  background: transparent;
+}
+/* Selections End */
 
 
 
@@ -130,7 +140,7 @@ body {
     font-weight: var(--font-weight-normal);
     font-size: 1.6rem;
     line-height: 1.5;
-    background-color: var(--color-dark);
+    background-color: var(--color-background);
 }
 
 h1,
@@ -141,6 +151,8 @@ h5,
 h6 {
     font-family: var(--font-family-2);
     font-weight: var(--font-weight-bold);
+    font-size: 2.4rem;
+    line-height: 1.5;
 }
 
 p,
@@ -177,5 +189,4 @@ ol {
     body {
         font-size: 0.8rem;
     }
-
 }
