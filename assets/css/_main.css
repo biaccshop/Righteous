@@ -41,7 +41,6 @@
     backdrop-filter: blur(3px);
 }
 
-/* Modal İçeriği */
 .modal-box {
     position: fixed;
     top: 30%;
@@ -850,6 +849,17 @@
     #eclipse-right1,
     #eclipse-left2 {
         display: none;
+    }
+
+    /* Modal */
+    .modal-box {
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        width: 85%;
+        max-width: 480px;
+        padding: 2rem;
     }
 
     /*  Hero Section */
