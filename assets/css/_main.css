@@ -892,7 +892,7 @@
 
     .products-content .product-box {
         height: 20rem;
-        flex: 0 0 100%;
+        flex: 0 0 24rem;
     }
 
     .product-box .product-text {
