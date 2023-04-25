@@ -12,6 +12,19 @@
     cursor: pointer;
 }
 
+/* Modal button Starting*/
+.btn-modal {
+    background-color: rgb(255, 192, 1);
+    color: rgb(0, 0, 0);
+    width: 100%;
+    height: 5.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    margin-top: 3rem;
+}
+
 /* Get Started button Starting*/
 .btn-getstarted {
     background-color: var(--color-primary);

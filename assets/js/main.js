@@ -34,6 +34,39 @@ $(document).ready(function () {
 
 
 
+// Modal section
+$(document).ready(function () {
+  var modal = $(".modal");
+  var ModalOpened = false;
+
+  $(window).scroll(function () {
+    var productsSection = document.querySelector('#products');
+    var rect = productsSection.getBoundingClientRect();
+    if (ModalOpened == false) {
+      if (rect.top <= window.innerHeight && rect.bottom >= 0 && !ModalOpened) {
+        modal.css("display", "block");
+        ModalOpened = true;
+      }
+    }
+  });
+
+  modal.on("click", ".close", function () {
+    modal.css("display", "none");
+  });
+
+  modal.on("click", "a", function () {
+    modal.css("display", "none");
+  });
+
+  $(document).on("click", function (event) {
+    if ($(event.target).is(modal)) {
+      modal.css("display", "none");
+    }
+  });
+});
+
+
+
 // FAQ section
 const faqQuestions = document.querySelectorAll(".faq-container .question");
 
