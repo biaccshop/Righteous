@@ -40,7 +40,7 @@ $(document).ready(function () {
   var ModalOpened = false;
 
   $(window).scroll(function () {
-    var modalStarting = document.querySelector('#modalStarting');
+    var modalStarting = document.querySelector('#products-content');
     var rect = modalStarting.getBoundingClientRect();
     if (ModalOpened == false) {
       if (rect.top <= window.innerHeight && rect.bottom >= 0 && !ModalOpened) {
