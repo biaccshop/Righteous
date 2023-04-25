@@ -40,8 +40,8 @@ $(document).ready(function () {
   var ModalOpened = false;
 
   $(window).scroll(function () {
-    var productsSection = document.querySelector('#products');
-    var rect = productsSection.getBoundingClientRect();
+    var modalStarting = document.querySelector('#modalStarting');
+    var rect = modalStarting.getBoundingClientRect();
     if (ModalOpened == false) {
       if (rect.top <= window.innerHeight && rect.bottom >= 0 && !ModalOpened) {
         modal.css("display", "block");
