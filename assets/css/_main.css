@@ -903,6 +903,16 @@
         font-size: 1.4rem;
     }
 
+    .product-text .text-1 i {
+        display: flex;
+        align-items: center;
+    }
+
+    .product-text .text-1 i img {
+        height: 18px;
+        width: auto;
+    }
+
     .product-text .text-2 p {
         font-size: 1.2rem;
     }
