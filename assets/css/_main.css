@@ -774,7 +774,11 @@
     }
 
     .hero-content h1 {
-        font-size: 4.6rem;
+        font-size: 4rem;
+    }
+
+    .hero-content p {
+        font-size: 1.6rem;
     }
 
     .hero-img {
@@ -801,7 +805,7 @@
     /* About section */
     .about {
         position: absolute;
-        top: 70rem;
+        top: 75rem;
         left: 5%;
         width: 90%;
         padding: 0;
@@ -816,7 +820,7 @@
     }
 
     .about-content {
-        width: 100%;
+        width: 95%;
     }
 
     .about-content h3 {
@@ -825,8 +829,21 @@
     }
 
     .about-content h2 {
-        font-size: 3.2rem;
+        font-size: 2.6rem;
         margin-bottom: 2.5rem;
+    }
+
+    .about-content p {
+        font-size: 1.6rem;
+    }
+
+    .about-content .feature p {
+        font-size: 1.6rem;
+    }
+
+    .about-content .feature i img {
+        height: 18px;
+        width: auto;
     }
 
     .about-content a {
@@ -843,8 +860,8 @@
 
     .about-features .card {
         height: 32rem;
-        width: 100%;
-        padding: 0 2rem;
+        width: 95%;
+        padding: 0 0;
         flex-direction: column;
         justify-content: center;
         gap: 2rem;
