@@ -606,9 +606,6 @@
     overflow: hidden;
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
-    font-size: 1.6rem;
-    color: var(--color-text-dark);
-    font-weight: var(--font-weight-normal);
     background-color: var(--color-dark);
     box-shadow: 0 0 20px var(--color-primary);
     transition: max-height 0.3s, padding 0.3s;
@@ -617,6 +614,18 @@
 .answer.active {
     max-height: 50rem;
     padding: 2rem 2rem;
+}
+
+.answer p {
+    font-size: 1.6rem;
+    color: var(--color-text-dark);
+    font-weight: var(--font-weight-normal);
+}
+
+.answer a {
+    font-size: 1.6rem;
+    color: var(--color-primary);
+    font-weight: var(--font-weight-normal);
 }
 
 /* Contact section */
