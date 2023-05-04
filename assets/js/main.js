@@ -120,9 +120,6 @@ document.querySelectorAll('.btn-category').forEach(function (button) {
 
     var category = this.getAttribute('data-category');
     var products = document.querySelectorAll('.product-box');
-    var visualright2 = document.getElementById('eclipse-right2')
-    var visualleft3 = document.getElementById('eclipse-left3')
-    var visualright3 = document.getElementById('eclipse-right3')
     if (category == 'all') {
       products.forEach(function (product) {
         product.style.display = 'flex';
