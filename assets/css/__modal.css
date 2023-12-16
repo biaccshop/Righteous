@@ -73,6 +73,7 @@
     margin-bottom: 0.5rem;
     letter-spacing: 0.15rem;
     word-spacing: 0.15rem;
+    text-align: left;
 }
 
 .modal-content button {

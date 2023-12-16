@@ -149,16 +149,12 @@ rightArrows.forEach(function (arrow) {
 ScrollReveal({
   reset: false,
   distance: '200px',
-  duration: 1500,
-  delay: 150
+  duration: 750,
+  delay: 200
 });
-
-ScrollReveal().reveal('.hero-content', { origin: 'top', delay: 300 });
-ScrollReveal().reveal('.hero-img', { origin: 'bottom' });
-
-ScrollReveal().reveal('.products-title h3, .products-title h2', { origin: 'left' });
-ScrollReveal().reveal('.search-filter', { origin: 'right' });
-
+ScrollReveal().reveal('.hero .hero-content', { origin: 'top', distance: '25px', delay: 200 });
+ScrollReveal().reveal('.hero .hero-img', { origin: 'bottom', distance: '25px', delay: 200 });
+ScrollReveal().reveal('.banner', { origin: 'bottom', distance: '0px', delay: 300 });
 
 
 // Disable right-click
