@@ -65,11 +65,14 @@ img {
     /* Colors */
     --color-primary: #5C07CB;
     --color-secondary: #7656A0;
-    --color-background: #171717;
-    --color-dark: #202020;
+    --color-background: #15171c;
+    --color-dark: #1e2127;
+    --color-dark-hover: rgb(37, 41, 48);
     --color-text-dark: rgb(140, 141, 143);
     --color-text-light: #ffffff;
     --color-text-hover: #BDBDBD;
+    --color-linear-1: linear-gradient(to left, var(--color-primary), var(--color-secondary));
+    --color-linear-1-2: linear-gradient(to right, var(--color-primary), var(--color-secondary));
     /* Font weights */
     --font-weight-normal: 400;
     --font-weight-bold: 700;
@@ -85,7 +88,7 @@ img {
 
 /* Scrollbar Starting */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 6px;
 }
 
 ::-webkit-scrollbar-track {

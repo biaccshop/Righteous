@@ -1,18 +1,18 @@
 /* 1069px and Upper - Desktop Header */
 .header {
-    height: 11rem;
+    height: auto;
     width: 100%;
     padding: 0 4rem;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     z-index: 100;
 }
 
 .navigation {
     z-index: 100;
     height: 6rem;
-    width: 120rem;
+    width: 128rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,15 +25,17 @@
 }
 
 .navigation .navbar {
-    margin-left: 4rem;
+    margin-left: 6rem;
+    padding-left: 3rem;
+    border-left: 2px solid var(--color-dark);
+    gap: 4rem;
     display: flex;
     align-items: center;
 }
 
 .navigation .navbar a {
-    margin-right: 4rem;
     font-size: 1.7rem;
-    color: var(--color-text-dark);
+    color: var(--color-text-hover);
     font-weight: var(--font-weight-bold);
     transition: 0.3s ease;
 }
@@ -45,11 +47,10 @@
 
 .navigation .nav-right {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     margin-left: auto;
+    gap: 2rem;
 }
 
 #black-bar {
@@ -84,12 +85,13 @@
 @media screen and (min-width: 834px) and (max-width: 1068px) {
 
     .navigation .navbar {
-        margin-left: 3rem;
+        margin-left: 5rem;
+        padding-left: 2.5rem;
+        gap: 3rem;
     }
 
     .navigation .navbar a {
-        margin-right: 3rem;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
 }
@@ -104,18 +106,22 @@
     }
 
     .header {
-        position: fixed;
-        height: 8rem;
-        align-items: center;
-        background-color: var(--color-dark);
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding: 0 2rem;
+    }
+
+    .navigation {
+        height: 6rem;
     }
 
     .navigation .navbar {
         display: none;
     }
 
-    .nav-right {
-        width: 25rem;
+    .navigation .logo {
+        height: 5rem;
     }
 }
 
@@ -127,22 +133,42 @@
         display: block;
     }
 
+    #blackbarbutton-icon {
+        font-size: 2.4rem;
+    }
+
+    #nav-blackbar {
+        padding: 4rem 0rem;
+    }
+    
+    #nav-blackbar a {
+        font-size: 2rem;
+    }
+
     .header {
-        position: fixed;
+        position: sticky;
+        top: 0;
+        left: 0;
+        padding: 0 2rem;
+    }
+
+    .navigation {
         height: 6rem;
-        align-items: center;
-        background-color: var(--color-dark);
     }
 
     .navigation .navbar {
         display: none;
     }
 
+    .navigation .nav-right {
+        gap: 0rem;
+    }
+
     .navigation .logo {
         height: 5rem;
     }
 
-    .navigation .btn-getstarted {
+    .navigation .btn-header {
         display: none;
     }
 }

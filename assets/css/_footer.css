@@ -1,31 +1,62 @@
 /* 1069px and Upper - Desktop Footer */
 .footer {
-	height: 7rem;
+	height: auto;
 	width: 100%;
-	background-color: var(--color-dark);
+	z-index: 1;
 }
 
-.footer-copyright {
-	height: 7rem;
+.footer-content {
+	height: auto;
+	padding: 4rem 0;
+	gap: 2rem;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: center;
+	border-top: 1px solid var(--color-dark-hover);
 }
 
-.footer-copyright .copyright-left p,
-a {
-	font-size: 1.4rem;
-	color: var(--color-text-dark);
-	font-weight: var(--font-weight-normal);
-	text-align: left;
+.footer-logo .logo {
+    width: 6rem;
+	height: auto;
+    display: flex;
 }
 
-.footer-copyright .copyright-right p,
-a {
-	font-size: 1.4rem;
-	color: var(--color-text-dark);
+.footer-links {
+	display: flex;
+	gap: 4rem;
+}
+.footer-links a {
+	font-size: 1.6rem;
+	color: var(--color-text-hover);
+	font-weight: var(--font-weight-bold);
+	text-align: center;
+	transition: 0.3s;
+}
+.footer-links a:hover {
+	color: var(--color-text-light);
+	text-shadow: 0 0 8px rgb(252, 252, 252);
+}
+
+.footer-socials {
+	display: flex;
+	gap: 4rem;
+}
+.footer-socials img {
+	height: 5rem;
+	width: auto;
+}
+
+.footer-copyright a, p {
+	font-size: 1.6rem;
+	color: var(--color-text-hover);
 	font-weight: var(--font-weight-normal);
-	text-align: left;
+	text-align: center;
+	transition: 0.3s;
+}
+.footer-copyright a:hover {
+	color: var(--color-primary);
+	text-shadow: 0 0 8px var(--color-secondary);
 }
 
 
@@ -35,30 +66,39 @@ a {
 
 /*  576px - 833px - Tablet Footer */
 @media screen and (min-width: 576px) and (max-width: 833px) {
-
-	/* Copyright Section */
-	.footer-copyright .copyright-left p,
-	a {
-		font-size: 1.1rem;
+	.footer-content {
+		padding: 3rem 0;
+		gap: 1.5rem;
 	}
-
-	.footer-copyright .copyright-right p,
-	a {
-		font-size: 1.1rem;
-	}
+	
 }
 
 /*  575px and Lower - Mobile Footer */
 @media screen and (max-width: 575px) {
-
-	/* Copyright Section */
-	.footer-copyright .copyright-left p,
-	a {
-		font-size: 0.8rem;
+	.footer-content {
+		padding: 3rem 0;
+		gap: 1.5rem;
 	}
 
-	.footer-copyright .copyright-right p,
-	a {
-		font-size: 0.8rem;
+	.footer-logo .logo {
+		width: 5rem;
+	}
+
+	.footer-links {
+		gap: 2rem;
+	}
+	.footer-links a {
+		font-size: 1.2rem;
+	}
+
+	.footer-socials {
+		gap: 3rem;
+	}
+	.footer-socials img {
+		height: 4rem;
+	}
+
+	.footer-copyright a, p {
+		font-size: 1.2rem;
 	}
 }

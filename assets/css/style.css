@@ -3,33 +3,20 @@
 @import './__grid.css';
 @import './__utilities.css';
 @import './__buttons-icons.css';
+@import './__announcement.css';
+@import './__modal.css';
 @import './_header.css';
 @import './_footer.css';
 @import './_main.css';
-@import './_404.css';
 
 /* Fonts - Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;700;900&display=swap');
 
 /* Icons - Font Awesome */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/regular.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/regular.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/solid.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/svg-with-js.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/svg-with-js.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/v4-font-face.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/v4-font-face.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/v4-shims.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/v4-shims.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/v5-font-face.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/v5-font-face.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.js');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js');
 
 /* Sellix - Sellix Integration */
 @import url('https://cdn.sellix.io/static/css/embed.css');

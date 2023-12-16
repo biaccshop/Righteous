@@ -67,28 +67,6 @@ $(document).ready(function () {
 
 
 
-// FAQ section
-const faqQuestions = document.querySelectorAll(".faq-container .question");
-
-faqQuestions.forEach((faqQuestion) => {
-  faqQuestion.addEventListener("click", () => {
-    faqQuestions.forEach((otherQuestion) => {
-      if (otherQuestion !== faqQuestion && otherQuestion.classList.contains("active")) {
-        const otherAnswer = otherQuestion.nextElementSibling;
-        otherAnswer.classList.remove("active");
-        otherQuestion.classList.remove("active");
-      }
-    });
-
-    const answer = faqQuestion.nextElementSibling;
-    answer.classList.toggle("active");
-    faqQuestion.classList.toggle("active");
-  });
-});
-
-
-
-
 // Search Box Buttons Listeners
 document.getElementById('search-box').addEventListener('input', function () {
   var searchValue = this.value.toLowerCase();
@@ -177,13 +155,6 @@ ScrollReveal({
 
 ScrollReveal().reveal('.hero-content', { origin: 'top', delay: 300 });
 ScrollReveal().reveal('.hero-img', { origin: 'bottom' });
-
-ScrollReveal().reveal('.about-content h3, .about-content h2', { origin: 'right' });
-ScrollReveal().reveal('.about-content p', { origin: 'right', delay: 200 });
-ScrollReveal().reveal('.about-content .feature-1', { origin: 'bottom', delay: 300 });
-ScrollReveal().reveal('.about-content .feature-2', { origin: 'bottom', delay: 400 });
-ScrollReveal().reveal('.about-content .feature-3', { origin: 'bottom', delay: 500 });
-ScrollReveal().reveal('.about-content .btn', { origin: 'bottom', delay: 600 });
 
 ScrollReveal().reveal('.products-title h3, .products-title h2', { origin: 'left' });
 ScrollReveal().reveal('.search-filter', { origin: 'right' });
