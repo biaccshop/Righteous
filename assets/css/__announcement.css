@@ -18,15 +18,15 @@
     justify-content: center;
     align-items: center;
     background: var(--color-dark);
-    border: 2px solid var(--color-primary);
-    border-radius: 6px;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
 }
 
 .announcement .content p {
     font-size: 1.7rem;
     letter-spacing: 0.15rem;
     font-weight: var(--font-weight-black);
-    color: var(--color-text-hover);
+    color: var(--color-text-light);
     text-align: center;
 }
 

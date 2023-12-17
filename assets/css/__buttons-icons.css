@@ -45,7 +45,7 @@
 .btn-ordernow {
     background-color: var(--color-primary);
     color: var(--color-text-light);
-    width: 23rem;
+    width: 20rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,8 +59,9 @@
 /* Contact us button Starting*/
 .btn-contactus {
     background-color: var(--color-dark);
+    border: 1px solid var(--color-dark-hover);
     color: var(--color-text-light);
-    width: 23rem;
+    width: 20rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -141,55 +142,33 @@
 }
 
 /* Black Bar button and icon Starting*/
-#btn-blackbar {
-    display: none;
-    cursor: pointer;
-}
 
-#btn-blackbar.active #blackbarbutton-icon {
-    transform: rotate(90deg);
-}
-
-#btn-blackbar:hover,
-#btn-blackbar:hover #blackbarbutton-icon {
-    color: var(--color-text-light);
-}
-
-#blackbarbutton-icon {
-    color: var(--color-text-hover);
-    transition: 0.3s ease;
-    font-size: 3rem;
-}
 
 /* Bottom-right Buttons */
 #telegram {
-    height: 6rem;
-    width: 6rem;
     position: fixed;
-    bottom: 9.5rem;
-    right: 2.4rem;
-    z-index: 101;
-    border-radius: 100%;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1;
 }
 
-.telegram-button {
+.btn-telegram {
     height: 6rem;
     width: auto;
 }
 
-/*  479px and Lower */
-@media screen and (max-width: 479px) {
+/*  575px and Lower - Mobile Sections */
+@media screen and (max-width: 575px) {
 
     #telegram {
-        height: 5.4rem;
-        width: 5.4rem;
-        bottom: 8rem;
-        right: 1.4rem;
+        position: fixed;
+        bottom: 0.5rem;
+        right: 0.5rem;
+        z-index: 1;
     }
 
-    /* Bottom-right Buttons */
-    .telegram-button {
-        height: 5.4rem;
+    .btn-telegram {
+        height: 5rem;
         width: auto;
     }
 

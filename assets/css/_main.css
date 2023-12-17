@@ -24,12 +24,14 @@
     margin-bottom: 7rem;
 }
 
-.hero-content h1 span {
-    color: var(--color-text-light);
+.hero-content .title {
+    width: 50rem;
+    height: auto;
+    margin-bottom: 7rem;
 }
 
 .hero-content p {
-    font-size: 2.4rem;
+    font-size: 2.8rem;
     font-weight: var(--font-weight-bold);
     line-height: 27px;
     letter-spacing: 1px;
@@ -40,7 +42,9 @@
 
 .hero-content p span {
     font-weight: var(--font-weight-black);
-    color: var(--color-primary);
+    background: var(--color-linear-1);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .hero-buttons {
@@ -91,19 +95,21 @@
 .product-top {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .products-title {
     display: flex;
     flex-direction: column;
+    margin-left: auto;
 }
 
 .products-title h3 {
     font-size: 1.8rem;
     font-weight: var(--font-weight-bold);
     color: var(--color-primary);
+    text-align: center;
 }
 
 .products-title h2 {
@@ -111,11 +117,13 @@
     font-weight: var(--font-weight-black);
     color: var(--color-text-light);
     line-height: 1;
+    text-align: center;
 }
 
 .search-filter {
     width: 15rem;
     height: 4rem;
+    margin-left: auto;
 }
 
 .search-filter input {
@@ -284,8 +292,13 @@
         text-align: center;
     }
 
+    .hero-content .title {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
     .hero-content p {
-        font-size: 2rem;
+        font-size: 2.4rem;
         text-align: center;
         margin-bottom: 1rem;
     }
@@ -351,8 +364,13 @@
         text-align: center;
     }
 
+    .hero-content .title {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
     .hero-content p {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         text-align: center;
         margin-bottom: 0.5rem;
     }
