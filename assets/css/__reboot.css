@@ -78,13 +78,18 @@ img {
     --font-weight-bold: 700;
     --font-weight-black: 900;
     /* Font families */
-    --font-family-1: 'Lato', sans-serif;
-    --font-family-2: 'Montserrat', sans-serif;
+    --font-family-1: 'AdultMex', sans-serif;
+    --font-family-2: 'AdultMex', sans-serif;
 }
 
 /* Roots End */
 
-
+@font-face {
+    font-family: 'AdultMex';
+    src: url('/assets/fonts/AdultMex.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* Scrollbar Starting */
 ::-webkit-scrollbar {

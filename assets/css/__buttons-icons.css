@@ -142,7 +142,25 @@
 }
 
 /* Black Bar button and icon Starting*/
+#btn-blackbar {
+    display: none;
+    cursor: pointer;
+}
 
+#btn-blackbar.active #blackbarbutton-icon {
+    transform: rotate(90deg);
+}
+
+#btn-blackbar:hover,
+#btn-blackbar:hover #blackbarbutton-icon {
+    color: var(--color-text-light);
+}
+
+#blackbarbutton-icon {
+    color: var(--color-text-hover);
+    transition: 0.3s ease;
+    font-size: 3rem;
+}
 
 /* Bottom-right Buttons */
 #telegram {
