@@ -24,7 +24,7 @@
     margin-bottom: 7rem;
 }
 
-.hero-content .title {
+.hero-content .hero-title {
     width: 50rem;
     height: auto;
     margin-bottom: 7rem;
@@ -52,6 +52,12 @@
     gap: 2.5rem;
     display: flex;
     flex-direction: row;
+}
+
+.hero-content .hero-trustpilot {
+    width: 45rem;
+    height: auto;
+    margin-top: 2rem;
 }
 
 .hero-img {
@@ -292,7 +298,7 @@
         text-align: center;
     }
 
-    .hero-content .title {
+    .hero-content .hero-title {
         width: 100%;
         margin-bottom: 4rem;
     }
@@ -364,7 +370,7 @@
         text-align: center;
     }
 
-    .hero-content .title {
+    .hero-content .hero-title {
         width: 100%;
         margin-bottom: 3rem;
     }
@@ -383,6 +389,11 @@
         margin-top: 2rem;
         gap: 1.5rem;
         flex-direction: column;
+    }
+
+    .hero-content .hero-trustpilot {
+        width: 100%;
+        margin-top: 1rem;
     }
 
     /* Banner AD section */
