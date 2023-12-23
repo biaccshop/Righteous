@@ -53,7 +53,6 @@
     width: 55%;
     height: 100%;
     z-index: -2;
-    mix-blend-mode: luminosity;
     opacity: 15%;
 }
 
@@ -790,8 +789,7 @@
     opacity: 95%;
     z-index: -1;
     border-radius: 16px;
-    mix-blend-mode: luminosity;
-    background-image: url("/assets/images/contact-img.jpg");
+    background-image: url("/assets/images/contact-img-2.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
