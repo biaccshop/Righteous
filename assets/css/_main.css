@@ -805,7 +805,7 @@
 }
 
 .contact h3 span {
-    background: var(--color-linear-1-3);
+    background: var(--color-linear-1);
     -webkit-background-clip: text;
     color: transparent;
 }
