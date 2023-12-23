@@ -17,6 +17,10 @@ $(document).ready(function () {
     modal.css("display", "none");
     setModalClosed();
   });
+  modal.on("click", ".btn-popup-2", function () {
+    modal.css("display", "none");
+    setModalClosed();
+  });
   $(document).on("click", function (event) {
     if ($(event.target).is(modal)) {
       modal.css("display", "none");
