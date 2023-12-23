@@ -16,7 +16,7 @@
     max-width: 86rem;
     height: auto;
     display: flex;
-    padding: 3rem 3rem;
+    padding: 3rem;
     border-radius: 16px;
     background: var(--color-dark);
     border: 2px solid var(--color-dark-hover);
@@ -147,6 +147,10 @@
     .form {
         padding: 5rem 0;
     }
+
+    .form .card {
+        padding: 2rem;
+    }
 }
 
 
@@ -155,6 +159,10 @@
 @media screen and (max-width: 575px) {
     .form {
         padding: 5rem 0 2.5rem 0;
+    }
+
+    .form .card {
+        padding: 1.5rem;
     }
 
     .form .card-left {
