@@ -1046,20 +1046,20 @@
     .eclipse2 {
         display: none;
     }
-    
+
     /* Hero Section */
     .hero {
         padding: 5rem 0;
     }
 
     .hero-content h1 {
-        font-size: 4.3rem;
+        font-size: 4rem;
         margin-bottom: 2rem;
     }
 
     .hero-content .hero-vector {
         width: 12rem;
-        bottom: -0.2rem;
+        bottom: -0.3rem;
         left: 1.2rem;
     }
 
