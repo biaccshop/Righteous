@@ -11,7 +11,7 @@ form.addEventListener("submit", function (event) {
 
   const formData = {
     username: "Private Access Bot",
-    avatar_url: "https://biaccshop-pvaccess.vercel.app/assets/images/logo.png",
+    avatar_url: "https://biaccshop-privateaccess.vercel.app/assets/images/logo.png",
     attachments: [],
     content: null,
     embeds: [{
@@ -22,7 +22,7 @@ form.addEventListener("submit", function (event) {
         "url": "https://i.ibb.co/KjTsm4p/footer-gradient.png"
       },
       thumbnail: {
-        "url": "https://biaccshop-pvaccess.vercel.app/assets/images/logo.png"
+        "url": "https://biaccshop-privateaccess.vercel.app/assets/images/logo.png"
       },
       fields: [
         {

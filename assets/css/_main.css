@@ -1,5 +1,30 @@
 /* 1069px and Upper - Desktop Sections */
 
+/* Eclipses Section */
+.eclipse1 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    filter: blur(150px);
+    background-color: var(--color-eclipse);
+}
+
+.eclipse2 {
+    position: fixed;
+    bottom: 13rem;
+    left: 0;
+    z-index: 3;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    filter: blur(150px);
+    background-color: var(--color-eclipse-2);
+}
+
 /* Hero Section */
 #hero {
     position: relative;
@@ -843,6 +868,14 @@
 /*  576px - 833px - Tablet Sections */
 @media screen and (min-width: 576px) and (max-width: 833px) {
 
+    /* Eclipses Section */
+    .eclipse1 {
+        display: none;
+    }
+    .eclipse2 {
+        display: none;
+    }
+
     /* Hero Section */
     .hero {
         padding: 5rem 0;
@@ -990,7 +1023,7 @@
     .product-text {
         justify-content: space-evenly;
     }
- 
+
     /* Contact Section */
     .contact {
         padding: 5rem 0 5rem 0;
@@ -1006,7 +1039,14 @@
 
 /*  575px and Lower - Mobile Sections */
 @media screen and (max-width: 575px) {
-
+    /* Eclipses Section */
+    .eclipse1 {
+        display: none;
+    }
+    .eclipse2 {
+        display: none;
+    }
+    
     /* Hero Section */
     .hero {
         padding: 5rem 0;

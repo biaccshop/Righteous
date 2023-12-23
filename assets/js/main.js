@@ -43,8 +43,6 @@ ScrollReveal().reveal('.form', { origin: 'top', distance: '0px', delay: 200 });
 
 
 
-
-
 // Navbar anchor + hiding # in URL
 $('a[href^="#"]').on('click', function (event) {
   var target = $(this.getAttribute('href'));
