@@ -14,7 +14,7 @@
     opacity: 35%;
     z-index: -3;
     mix-blend-mode: luminosity;
-    background-image: url("/assets/images/hero-bg.png");
+    background-image: url("/assets/images/hero-bg.webp");
 }
 
 .hero-slider {
