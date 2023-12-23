@@ -82,22 +82,22 @@
 
 .hero-slider .slide-track {
     display: flex;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     width: calc(38rem * 8 * 2);
-    animation: HeroSlideAnimation 12s linear infinite;
+    animation: HeroSlideAnimation 18s linear infinite;
 }
 
 .hero-slider .slide-track-2 {
     display: flex;
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     width: calc((38rem * 8 * 2) + 35rem);
-    animation: HeroSlideAnimation2 16s linear infinite;
+    animation: HeroSlideAnimation2 24s linear infinite;
 }
 
 .hero-slider .slide-track-3 {
     display: flex;
     width: calc(38rem * 8 * 2);
-    animation: HeroSlideAnimation 12s linear infinite;
+    animation: HeroSlideAnimation 18s linear infinite;
 }
 
 @keyframes HeroSlideAnimation {
@@ -235,7 +235,7 @@
 }
 
 .about-img i img {
-    width: auto;
+    width: 40rem;
     height: auto;
 }
 
