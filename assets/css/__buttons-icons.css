@@ -6,9 +6,8 @@
     border-radius: 16px;
     text-align: center;
     transition: 0.3s ease;
-    font-family: var(--font-family-1);
-    font-weight: var(--font-weight-bold);
-    font-size: 1.8rem;
+    font-family: var(--font-family-normal);
+    font-size: 1.6rem;
     cursor: pointer;
 }
 
@@ -21,7 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .btn-popup:hover {
@@ -37,7 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .btn-popup-2:hover {
