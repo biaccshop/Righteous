@@ -791,7 +791,7 @@
     z-index: -1;
     border-radius: 16px;
     mix-blend-mode: luminosity;
-    background-image: url("/assets/images/contact-img.png");
+    background-image: url("assets/images/contact-img.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
