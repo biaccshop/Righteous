@@ -22,12 +22,17 @@
     border-radius: 4px;
 }
 
-.announcement .content p {
+.announcement .content a {
+    user-select: none;
     font-size: 1.7rem;
-    letter-spacing: 0.15rem;
-    font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-bold);
     color: var(--color-text-light);
     text-align: center;
+    transition: 0.3s;
+}
+
+.announcement .content a:hover {
+    color: var(--color-primary);
 }
 
 
@@ -39,11 +44,13 @@
 @media screen and (min-width: 576px) and (max-width: 833px) {
     .announcement {
         padding: 1rem 2rem;
+        box-shadow: 0 0 50px #000;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
     
-    .announcement .content p {
+    .announcement .content a {
         font-size: 1.5rem;
-        letter-spacing: 0.1rem;
     }
 }
 
@@ -51,10 +58,11 @@
 @media screen and (max-width: 575px) {
     .announcement {
         padding: 1rem 2rem;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
     
-    .announcement .content p {
+    .announcement .content a {
         font-size: 1.2rem;
-        letter-spacing: 0rem;
     }
 }

@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 100;
+    z-index: 99;
 }
 
 .navigation {
@@ -34,9 +34,10 @@
 }
 
 .navigation .navbar a {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     color: var(--color-text-hover);
     font-weight: var(--font-weight-bold);
+    font-family: var(--font-family-normal);
     transition: 0.3s ease;
 }
 
@@ -54,12 +55,12 @@
 }
 
 #black-bar {
-    z-index: 100;
+    z-index: 101;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-color: var(--color-background);
     display: none;
 }
@@ -107,9 +108,12 @@
 
     .header {
         position: sticky;
-        top: 0;
+        top: -0.1px;
         left: 0;
         padding: 0 2rem;
+        box-shadow: 0 10px 50px #000;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
 
     .navigation {
@@ -147,9 +151,12 @@
 
     .header {
         position: sticky;
-        top: 0;
+        top: -0.1px;
         left: 0;
         padding: 0 2rem;
+        box-shadow: 0 10px 50px #000;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
     }
 
     .navigation {

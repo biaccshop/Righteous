@@ -1,0 +1,177 @@
+/* Application section */
+#form {
+    position: relative;
+}
+
+.form {
+    padding: 10rem 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form .card {
+    width: 100%;
+    max-width: 86rem;
+    height: auto;
+    display: flex;
+    padding: 3rem 3rem;
+    border-radius: 16px;
+    background: var(--color-dark);
+    border: 2px solid var(--color-dark-hover);
+}
+
+.form #contact-form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.form #contact-form h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-family-black);
+    background: var(--color-linear-1-3);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.form #contact-form .sub-title {
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+}
+
+.form #contact-form label {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-family: var(--font-family-normal);
+    color: var(--color-text-hover);
+}
+
+.form #contact-form input {
+    width: 100%;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-radius: 12px;
+    outline: 2px solid var(--color-dark-hover);
+    font-size: 1.6rem;
+    font-family: var(--font-family-normal);
+    color: var(--color-text-hover);
+    background: var(--color-background);
+    transition: 0.3s;
+}
+
+.form #contact-form input:focus {
+    outline: 1px solid var(--color-text-hover);
+}
+
+.form #contact-form textarea {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 1.2rem;
+    margin-bottom: 2rem;
+    border: 0;
+    border-radius: 12px;
+    outline: 2px solid var(--color-dark-hover);
+    font-size: 1.6rem;
+    font-family: var(--font-family-normal);
+    color: var(--color-text-hover);
+    background: var(--color-background);
+    transition: 0.3s;
+}
+
+.form #contact-form textarea:focus {
+    outline: 1px solid var(--color-text-hover);
+}
+
+.form #contact-form p {
+    display: inline;
+    font-size: 1.6rem;
+    color: var(--color-text-hover);
+    font-family: var(--font-family-normal);
+}
+
+.form #contact-form a {
+    display: inline;
+    font-size: 1.6rem;
+    color: var(--color-primary);
+    font-family: var(--font-family-normal);
+    transition: 0.3s;
+}
+
+.form #contact-form a:hover {
+	text-shadow: 0 0 8px var(--color-secondary);
+}
+
+.form #contact-form .checkbox-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form #contact-form .checkbox-area {
+    display: flex;
+    gap: 1rem;
+}
+
+.form #contact-form .checkbox-area input {
+    width: 1.4rem;
+    height: auto;
+}
+
+.form #contact-form .msg-checkbox {
+    font-size: 1.4rem;
+    margin-top: -0.6rem;
+}
+
+.form #contact-form .msg-us {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+/*  834px - 1068px - Laptop Sections */
+@media screen and (min-width: 834px) and (max-width: 1068px) {
+
+}
+
+
+
+/*  576px - 833px - Tablet Sections */
+@media screen and (min-width: 576px) and (max-width: 833px) {
+    .form {
+        padding: 5rem 0;
+    }
+}
+
+
+
+/*  575px and Lower - Mobile Sections */
+@media screen and (max-width: 575px) {
+    .form {
+        padding: 5rem 0 2.5rem 0;
+    }
+
+    .form .card-left {
+        display: none;
+    }
+
+    .form .card-right {
+        width: 100%;
+        height: 100%;
+        padding: 2rem 2rem;
+    }
+
+    .form #contact-form h2 {
+        font-size: 2rem;
+    }
+
+    .form #contact-form .sub-title {
+        font-size: 1.4rem;
+    }
+}

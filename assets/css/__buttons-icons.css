@@ -1,9 +1,9 @@
 /* Button */
 .btn {
     display: inline-block;
-    padding: 1.2rem 1.8rem;
+    padding: 1rem 1.8rem;
     border: none;
-    border-radius: 8px;
+    border-radius: 16px;
     text-align: center;
     transition: 0.3s ease;
     font-family: var(--font-family-1);
@@ -12,24 +12,43 @@
     cursor: pointer;
 }
 
-/* Modal button Starting*/
-.btn-modal {
+/* Popup button Starting*/
+.btn-popup {
     background-color: var(--color-primary);
-    color: var(--color-text-light);
-    width: 100%;
+    color: var(--color-dark);
+    width: 16rem;
     height: 5.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.6rem;
-    margin-top: 3rem;
+}
+
+.btn-popup:hover {
+    background-color: var(--color-secondary);
+}
+
+/* Popup button 2 Starting*/
+.btn-popup-2 {
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+    width: 16rem;
+    height: 5.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+}
+
+.btn-popup-2:hover {
+    background-color: var(--color-secondary);
 }
 
 /* Header button Starting*/
 .btn-header {
     background-color: var(--color-primary);
-    color: var(--color-text-light);
-    width: 18.5rem;
+    color: var(--color-dark);
+    width: auto;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -44,8 +63,8 @@
 /* Order Now button Starting*/
 .btn-ordernow {
     background-color: var(--color-primary);
-    color: var(--color-text-light);
-    width: 20rem;
+    color: var(--color-dark);
+    width: 22rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -59,9 +78,9 @@
 /* Contact us button Starting*/
 .btn-contactus {
     background-color: var(--color-dark);
-    border: 1px solid var(--color-dark-hover);
+    border: 2px solid var(--color-dark-hover);
     color: var(--color-text-light);
-    width: 20rem;
+    width: 22rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -72,39 +91,46 @@
     background-color: var(--color-dark-hover);
 }
 
-/* Category button Starting*/
-.btn-category {
-    background-color: var(--color-dark);
-    color: var(--color-text-light);
-    height: 3.3rem;
-    width: fit-content;
-    max-width: 100%;
-    white-space: nowrap;
+/* Order Golden button Starting*/
+.btn-ordergolden {
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: 1.4rem;
 }
 
-.btn-category:hover {
-    background-color: var(--color-primary);
+.btn-ordergolden:hover {
+    background: var(--color-secondary);
 }
 
-.btn-category.active {
-    background-color: var(--color-primary);
+/* Order Silver button Starting*/
+.btn-ordersilver {
+    background-color: var(--color-dark);
+    border: 2px solid var(--color-dark-hover);
+    color: var(--color-text-light);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-ordersilver:hover {
+    background-color: var(--color-dark-hover);
 }
 
 /* Product button Starting*/
 .btn-product {
-    color: var(--color-text-hover);
-    border-radius: 5px;
+    color: var(--color-dark);
     background-color: var(--color-primary);
-    width: 100%;
-    height: 100%;
     border-radius: 5px;
     padding: 1.5rem 1.5rem;
     font-size: 1.6rem;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -115,29 +141,77 @@
     background-color: var(--color-secondary);
 }
 
+/* Buy button Starting*/
+.btn-buy {
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+    border-radius: 8px;
+    font-size: 1.5rem;
+    width: 5rem;
+    height: 3.6rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-buy:hover {
+    background-color: var(--color-secondary);
+}
+
+/* Contact button Starting*/
+.btn-contact {
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+    width: 22rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-contact:hover {
+    background-color: var(--color-secondary);
+}
+
 /* Icons Starting */
 .bag-icon {
     margin-top: 0.6rem;
-    margin-right: 1.4rem;
-    transition: 0.3s ease;
-}
-
-.rightarrow-icon {
-    margin-top: 0.8rem;
-    margin-right: 1.4rem;
+    margin-right: 0.8rem;
     transition: 0.3s ease;
 }
 
 .line-icon {
     margin-top: 0.7rem;
-    margin-right: 1.7rem;
+    margin-right: 1.3rem;
+}
+
+.check-icon {
+    margin-right: 1.4rem;
+}
+
+.reviewstar-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 0.5rem;
+}
+
+.reviewcheckmark-icon {
+    width: 15px;
+    height: auto;
+    margin-top: 0.3rem;
+    margin-right: 1.5rem;
+}
+
+.rightarrow-icon {
+    margin-left: 1.2rem;
 }
 
 .footerheart-icon {
     background: var(--color-linear-1-2);
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     margin: 0 0.3rem;
 }
 
@@ -162,17 +236,24 @@
     font-size: 3rem;
 }
 
-/* Bottom-right Buttons */
-#telegram {
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    z-index: 1;
-}
+/*  576px - 833px - Tablet Sections */
+@media screen and (min-width: 576px) and (max-width: 833px) {
+    .btn-header {
+        padding: 0.5rem 1.6rem;
+    }
 
-.btn-telegram {
-    height: 6rem;
-    width: auto;
+    .reviewstar-icon {
+        width: 15px;
+        height: auto;
+        margin-right: 0.5rem;
+    }
+
+    .reviewcheckmark-icon {
+        width: 15px;
+        height: auto;
+        margin-top: 0.3rem;
+        margin-right: 1.5rem;
+    }
 }
 
 /*  575px and Lower - Mobile Sections */
@@ -190,4 +271,26 @@
         width: auto;
     }
 
+    .btn-buy {
+        font-size: 1.4rem;
+        width: 4.5rem;
+        height: 3rem;
+    }
+
+    .btn-contact {
+        width: 100%;
+    }
+
+    .reviewstar-icon {
+        width: 10px;
+        height: auto;
+        margin-right: 0.3rem;
+    }
+
+    .reviewcheckmark-icon {
+        width: 10px;
+        height: auto;
+        margin-top: 0.3rem;
+        margin-right: 1rem;
+    }
 }

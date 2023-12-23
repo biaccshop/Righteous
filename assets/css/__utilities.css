@@ -18,6 +18,10 @@
     display: block;
 }
 
+.hidden {
+    display: none;
+}
+
 .inlineflex {
     display: inline-flex;
 }
@@ -33,18 +37,4 @@
 
 .justify-center {
     justify-content: center;
-}
-
-/* Aligns */
-.align-center {
-    align-items: center;
-}
-
-/* Paddings */
-.padding-left-4 {
-    padding-left: 4rem;
-}
-
-.padding-right-2 {
-    padding-right: 2rem;
 }
