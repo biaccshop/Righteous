@@ -479,7 +479,7 @@
             <div class="contact">
                 <div class="card">
                     <div class="contact-title">
-                        <h3>Join the <span>Community!</span></h3>
+                        <h3>Join the <span class="auto-type"></span></h3>
                         <p>Get in touch with us in our Telegram!</p>
                     </div>
                     <a href="https://t.me/addlist/m-jkiQW1BEdlY2I0" class="btn btn-contact" target="_blank"
@@ -546,6 +546,15 @@
 
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Community!", "Telegram"],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        })
+    </script>
     <script src="/assets/js/main.js"></script>
     <script src="/assets/js/popup.js"></script>
     <script src="/assets/js/contact.js"></script>
