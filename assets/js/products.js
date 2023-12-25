@@ -342,7 +342,7 @@ function renderGroupsAndProducts(data) {
             const productPurchaseA = document.createElement('a');
             productPurchaseA.setAttribute('class', 'btn btn-buy');
             productPurchaseA.setAttribute('data-sellpass-product-path', product.path);
-            productPurchaseA.setAttribute('data-sellpass-domain', 'test2biacc.sellpass.io');
+            productPurchaseA.setAttribute('data-sellpass-domain', 'pvaccess.sellpass.io');
             productPurchaseA.textContent = 'Buy';
 
             productPurchaseDiv.appendChild(productPurchaseA);
@@ -378,8 +378,7 @@ hideLoadingBar();
 setTimeout(() => {
     showLoadingBar();
 }, 700);
-// https://dev.sellpass.io/v2/public/shops/33864/listings
-fetch("https://dev.sellpass.io/v2/public/shops/test2biacc.sellpass.io/listings", {
+fetch("https://dev.sellpass.io/v2/public/shops/pvaccess.sellpass.io/listings", {
     headers: {
         Authorization: "Bearer FUCK YOU"
     }
