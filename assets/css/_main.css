@@ -7,7 +7,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: 66%;
+    opacity: 16%;
     z-index: -3;
     overflow: hidden;
     background-image: url("/assets/images/background.webp");
@@ -806,7 +806,7 @@
     opacity: 95%;
     z-index: -1;
     border-radius: 16px;
-    background-image: url("/assets/images/contact-img-2.webp");
+    background-image: url("/assets/images/contact-img.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
