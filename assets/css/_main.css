@@ -67,16 +67,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 55%;
+    width: 100%;
     height: 100%;
     z-index: -2;
-    opacity: 15%;
+    opacity: 25%;
 }
 
 .hero-slider .slider {
     height: auto;
     width: 100%;
-    max-width: 1370px;
+    max-width: 4370px;
     position: relative;
     display: grid;
     place-items: center;
@@ -92,8 +92,22 @@
     z-index: 1;
 }
 
+.hero-slider .slider::after {
+    background: linear-gradient(to left, rgb(21, 21, 21) 0%, rgba(255, 255, 255, 0) 100%);
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
 .hero-slider .slider::before {
     left: 0;
+    top: 0;
+}
+
+.hero-slider .slider::after {
+    right: 0;
     top: 0;
 }
 
