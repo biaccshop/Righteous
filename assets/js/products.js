@@ -262,7 +262,7 @@ function renderGroupsAndProducts(data) {
 
         const groupButtonA = document.createElement('a');
         groupButtonA.setAttribute('class', 'btn btn-product');
-        groupButtonA.textContent = 'Purchase | $' + group.minPriceDetails.amount;
+        groupButtonA.textContent = 'Starting from $' + group.minPriceDetails.amount;
 
         groupButtonDiv.appendChild(groupButtonA);
         groupDiv.appendChild(groupButtonDiv);
