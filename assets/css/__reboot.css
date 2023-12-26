@@ -91,9 +91,9 @@ img {
     --font-family-bold: 'Title-bold', sans-serif;
     --font-family-black: 'Title-black', sans-serif;
     /* Slider Settings */
-    --slider-card-count: 6;
+    --slider-card-count: 15;
     --slider-card-width: 40rem;
-    --slider-scroll-duration: 18s;
+    --slider-scroll-duration: 45s;
 }
 
 /* Roots End */
