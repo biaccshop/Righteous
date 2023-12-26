@@ -459,7 +459,8 @@
 }
 
 .pricing-box .feature svg {
-    margin-top: 0.2rem;
+    stroke: var(--color-price);
+    stroke-width: 1.5px;
 }
 
 /* Payments section */
