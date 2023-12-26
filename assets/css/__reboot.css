@@ -7,7 +7,7 @@
     outline: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    scroll-padding-top: 0rem;
+    scroll-padding-top: 5rem;
 }
 
 html,

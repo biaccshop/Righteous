@@ -49,7 +49,7 @@ $('a[href^="#"]').on('click', function (event) {
   if (target.length) {
     event.preventDefault();
     $('html, body').stop().animate({
-      scrollTop: target.offset().top
+      scrollTop: target.offset().top + 9 * parseFloat(getComputedStyle(document.documentElement).fontSize)
     }, 300);
   }
 });
