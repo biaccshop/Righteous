@@ -458,6 +458,10 @@
     gap: 0.3rem;
 }
 
+.pricing-box .feature svg {
+    margin-top: 0.2rem;
+}
+
 /* Payments section */
 .payments {
     padding: 0 0 10rem 0;
