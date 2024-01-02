@@ -440,7 +440,7 @@
 .pricing-box p {
     color: var(--color-dark);
     font-size: 1.5rem;
-    font-family: var(--font-family-normal);
+    font-family: var(--font-family-bold);
 }
 
 .pricing-box .pricing-features {
