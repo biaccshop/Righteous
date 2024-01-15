@@ -178,6 +178,11 @@
     transition: 0.3s ease;
 }
 
+.tg-icon {
+    margin-right: 1.2rem;
+    transition: 0.3s ease;
+}
+
 .line-icon {
     margin-top: 0.7rem;
     margin-right: 1.3rem;

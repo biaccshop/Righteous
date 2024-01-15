@@ -399,8 +399,8 @@
 
 .pricing-box h5 {
     color: var(--color-dark);
-    font-size: 1.6rem;
-    font-family: var(--font-family-bold);
+    font-size: 1.8rem;
+    font-family: var(--font-family-normal);
     margin-bottom: 0.8rem;
 }
 
