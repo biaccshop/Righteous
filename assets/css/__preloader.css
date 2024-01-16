@@ -1,0 +1,41 @@
+#preloader {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url("/assets/images/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: 9999;
+}
+
+#video-preloader {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(1);
+    opacity: 100%;
+}
+
+/*  834px - 1068px - Laptop Sections */
+@media screen and (min-width: 834px) and (max-width: 1068px) {
+    #video-preloader {
+        object-fit: contain;
+    }
+}
+
+
+/*  576px - 833px - Tablet Sections */
+@media screen and (min-width: 576px) and (max-width: 833px) {
+    #video-preloader {
+        object-fit: contain;
+    }
+}
+
+/*  575px and Lower - Mobile Sections */
+@media screen and (max-width: 575px) {
+    #video-preloader {
+        object-fit: contain;
+    }
+}

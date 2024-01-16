@@ -1,3 +1,23 @@
+// Preloader
+document.addEventListener('DOMContentLoaded', function () {
+  const preloader = document.getElementById('preloader');
+  const videoPreloader = document.getElementById('video-preloader');
+
+  window.addEventListener('load', function () {
+      preloader.style.display = 'flex';
+      videoPreloader.play();
+
+      videoPreloader.addEventListener('ended', function () {
+          preloader.style.display = 'none';
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+  });
+});
+
+
+
+
+
 // Disable right-click
 document.addEventListener('contextmenu', (e) => e.preventDefault());
 function ctrlShiftKey(e, keyCode) {
