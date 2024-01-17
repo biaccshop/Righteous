@@ -64,7 +64,7 @@ img {
 :root {
     /* Colors */
     --color-primary: rgb(1, 129, 12);
-    --color-secondary: rgb(0,188,19);
+    --color-secondary: rgb(0, 188, 19);
     --color-background: #000500;
     --color-dark: rgb(18,18,18);
     --color-dark-hover: rgb(35, 35, 35);

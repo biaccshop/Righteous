@@ -202,7 +202,7 @@
 }
 
 .banner-image-div {
-    width: 49%;
+    width: 48%;
 }
 
 .image-banner {
@@ -210,8 +210,6 @@
     height: auto;
     border-radius: 16px;
     border: 2px solid var(--color-dark-hover);
-    background: linear-gradient(15deg, var(--color-primary) 0%, var(--color-dark) 45%, var(--color-secondary) 100%);
-
 }
 
 /* Feedbacks section */

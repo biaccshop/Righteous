@@ -25,21 +25,12 @@ ScrollReveal({
   delay: 200
 });
 
-
-ScrollReveal().reveal('.popup', { origin: 'top', distance: '0px', delay: 800 });
 ScrollReveal().reveal('.hero', { origin: 'top', distance: '25px', delay: 200 });
-ScrollReveal().reveal('.hero-slider', { origin: 'top', distance: '0px', delay: 300 });
-ScrollReveal().reveal('.about-content', { origin: 'left', distance: '25px', delay: 200 });
-ScrollReveal().reveal('.about-img', { origin: 'right', distance: '25px', delay: 200 });
-ScrollReveal().reveal('.pricing-title', { origin: 'top', distance: '25px', delay: 200 });
-ScrollReveal().reveal('.pricing-content', { origin: 'top', distance: '25px', delay: 600 });
-ScrollReveal().reveal('.payments', { origin: 'bottom', distance: '25px', delay: 200 });
 ScrollReveal().reveal('.feedbacks-title', { origin: 'top', distance: '25px', delay: 200 });
 ScrollReveal().reveal('.feedbacks .slider', { origin: 'top', distance: '0px', delay: 600 });
 ScrollReveal().reveal('.products', { origin: 'top', distance: '0px', delay: 200 });
 ScrollReveal().reveal('.faq', { origin: 'top', distance: '0px', delay: 200 });
 ScrollReveal().reveal('.tos', { origin: 'top', distance: '0px', delay: 200 });
-ScrollReveal().reveal('.form', { origin: 'top', distance: '0px', delay: 200 });
 
 
 
