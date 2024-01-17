@@ -1,23 +1,3 @@
-// Preloader
-document.addEventListener('DOMContentLoaded', function () {
-  const preloader = document.getElementById('preloader');
-  const videoPreloader = document.getElementById('video-preloader');
-
-  window.addEventListener('load', function () {
-      preloader.style.display = 'flex';
-      videoPreloader.play();
-
-      videoPreloader.addEventListener('ended', function () {
-          preloader.style.display = 'none';
-          window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-  });
-});
-
-
-
-
-
 // Disable right-click
 document.addEventListener('contextmenu', (e) => e.preventDefault());
 function ctrlShiftKey(e, keyCode) {
@@ -69,7 +49,7 @@ $('a[href^="#"]').on('click', function (event) {
   if (target.length) {
     event.preventDefault();
     $('html, body').stop().animate({
-      scrollTop: target.offset().top + 9 * parseFloat(getComputedStyle(document.documentElement).fontSize)
+      scrollTop: target.offset().top + 4 * parseFloat(getComputedStyle(document.documentElement).fontSize)
     }, 300);
   }
 });

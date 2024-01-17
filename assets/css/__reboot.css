@@ -63,22 +63,21 @@ img {
 /* Root Starting */
 :root {
     /* Colors */
-    --color-primary: rgb(238, 175, 70);
-    --color-secondary: #e7c148;
-    --color-bright: rgb(219, 224, 76);
-    --color-background: #15171c;
-    --color-dark: #1e2127;
-    --color-dark-hover: rgb(37, 41, 48);
-    --color-text-dark: rgb(140, 141, 143);
-    --color-text-light: #ffffff;
-    --color-text-hover: #BDBDBD;
-    --color-linear-1: linear-gradient(to left, var(--color-primary), var(--color-bright));
-    --color-linear-1-2: linear-gradient(to right, var(--color-primary), var(--color-bright));
-    --color-linear-1-3: linear-gradient(to top, var(--color-primary), var(--color-bright));
-    --color-eclipse: rgba(219, 224, 76, 0.5);
-    --color-eclipse-2: rgba(238, 175, 70, 0.5);
+    --color-primary: rgb(1, 129, 12);
+    --color-secondary: rgb(0,188,19);
+    --color-background: #000500;
+    --color-dark: rgb(18,18,18);
+    --color-dark-hover: rgb(35, 35, 35);
+    --color-text-dark: rgb(155,155,155);
+    --color-text-light: rgb(217,217,217);
+    --color-text-hover: rgb(196, 196, 196);
+    --color-linear-1: linear-gradient(to left, var(--color-primary), var(--color-secondary));
+    --color-linear-1-2: linear-gradient(to right, var(--color-primary), var(--color-secondary));
+    --color-linear-1-3: linear-gradient(to top, var(--color-primary), var(--color-secondary));
+    --color-eclipse-1: rgb(1, 129, 12, 0.6);
+    --color-eclipse-2: rgb(0,188,19, 0.6);
     /* Other colors */
-    --color-price: rgb(32, 173, 84);
+    --color-price: rgb(32, 173, 84,);
     --color-instock: rgb(173, 173, 173);
     --color-nostock: #e74c3c;
     /* Font weights */
@@ -86,42 +85,19 @@ img {
     --font-weight-bold: 700;
     --font-weight-black: 900;
     /* Font families */
-    --font-family-1: 'League Spartan', sans-serif;
-    --font-family-normal: 'Title-normal', sans-serif;
-    --font-family-bold: 'Title-bold', sans-serif;
-    --font-family-black: 'Title-black', sans-serif;
+    --font-family-1: 'Lato', sans-serif;
+    --font-family-2: 'Montserrat', sans-serif;
     /* Slider Settings */
     --slider-card-count: 15;
     --slider-card-width: 40rem;
     --slider-scroll-duration: 45s;
 }
-
 /* Roots End */
 
-@font-face {
-    font-family: 'Title-normal';
-    src: url('/assets/fonts/OpenSauceSans-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Title-bold';
-    src: url('/assets/fonts/OpenSauceSans-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Title-black';
-    src: url('/assets/fonts/OpenSauceSans-Black.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /* Scrollbar Starting */
 ::-webkit-scrollbar {
-    width: 4px;
+    width: 8px;
 }
 
 ::-webkit-scrollbar-track {

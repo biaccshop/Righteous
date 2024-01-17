@@ -1,73 +1,65 @@
 /* Button */
 .btn {
     display: inline-block;
-    padding: 1rem 1.8rem;
+    padding: 1.2rem 1.8rem;
     border: none;
-    border-radius: 16px;
+    border-radius: 8px;
     text-align: center;
     transition: 0.3s ease;
-    font-family: var(--font-family-normal);
-    font-size: 1.6rem;
+    font-family: var(--font-family-1);
+    font-weight: var(--font-weight-normal);
+    font-size: 1.8rem;
     cursor: pointer;
-}
-
-/* Popup button Starting*/
-.btn-popup {
-    background-color: var(--color-primary);
-    color: var(--color-dark);
-    width: 16rem;
-    height: 5.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.4rem;
-}
-
-.btn-popup:hover {
-    background-color: var(--color-secondary);
-}
-
-/* Popup button 2 Starting*/
-.btn-popup-2 {
-    background-color: var(--color-primary);
-    color: var(--color-dark);
-    width: 16rem;
-    height: 5.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.4rem;
-}
-
-.btn-popup-2:hover {
-    background-color: var(--color-secondary);
+    color: var(--color-text-light);
 }
 
 /* Header button Starting*/
 .btn-header {
     background-color: var(--color-primary);
-    color: var(--color-dark);
+    color: var(--color-text-light);
     width: auto;
     height: auto;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    box-shadow: 0rem 0rem 2rem var(--color-primary);
 }
 
 .btn-header:hover {
     background-color: var(--color-secondary);
 }
 
+/* Mobile header button Starting*/
+.btn-mobileheader {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0rem 0rem 1.5rem var(--color-primary);
+}
+
+.btn-mobileheader:hover {
+    background-color: var(--color-secondary);
+}
+
+#btn-mobile-header {
+    display: none;
+}
+
 /* Order Now button Starting*/
 .btn-ordernow {
     background-color: var(--color-primary);
-    color: var(--color-dark);
+    color: var(--color-text-light);
     width: 22rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    box-shadow: 0rem 0rem 2rem var(--color-primary);
 }
 
 .btn-ordernow:hover {
@@ -84,46 +76,16 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    box-shadow: 0rem 0rem 2rem var(--color-dark);
 }
 
 .btn-contactus:hover {
     background-color: var(--color-dark-hover);
 }
 
-/* Order Golden button Starting*/
-.btn-ordergolden {
-    background-color: var(--color-primary);
-    color: var(--color-dark);
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn-ordergolden:hover {
-    background: var(--color-secondary);
-}
-
-/* Order Silver button Starting*/
-.btn-ordersilver {
-    background-color: var(--color-dark);
-    border: 2px solid var(--color-dark-hover);
-    color: var(--color-text-light);
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.btn-ordersilver:hover {
-    background-color: var(--color-dark-hover);
-}
-
 /* Product button Starting*/
 .btn-product {
-    color: var(--color-dark);
+    color: var(--color-text-light);
     background-color: var(--color-primary);
     border-radius: 5px;
     width: 100%;
@@ -132,6 +94,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    box-shadow: 0rem 0rem 1.5rem var(--color-primary);
 }
 
 .btn-product:hover {
@@ -141,7 +104,7 @@
 /* Buy button Starting*/
 .btn-buy {
     background-color: var(--color-primary);
-    color: var(--color-dark);
+    color: var(--color-text-light);
     border-radius: 8px;
     font-size: 1.5rem;
     width: 5rem;
@@ -150,6 +113,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    box-shadow: 0rem 0rem 1.5rem var(--color-primary);
 }
 
 .btn-buy:hover {
@@ -159,12 +123,13 @@
 /* Contact button Starting*/
 .btn-contact {
     background-color: var(--color-primary);
-    color: var(--color-dark);
+    color: var(--color-text-light);
     width: 22rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    box-shadow: 0rem 0rem 2rem var(--color-primary);
 }
 
 .btn-contact:hover {
@@ -178,14 +143,38 @@
     transition: 0.3s ease;
 }
 
-.tg-icon {
+.line-icon {
+    margin-top: 0.7rem;
+    margin-right: 1.3rem;
+}
+
+.user-icon {
+    width: 18px;
+    margin-top: 0.8rem;
     margin-right: 1.2rem;
     transition: 0.3s ease;
 }
 
-.line-icon {
-    margin-top: 0.7rem;
-    margin-right: 1.3rem;
+.mobile-user-icon {
+    width: 24px;
+    margin-top: auto;
+    margin-top: 0.5rem;
+    margin-left: 0.4rem;
+    transition: 0.3s ease;
+}
+
+.goback-icon {
+    width: 24px;
+    margin-top: 0.8rem;
+    margin-right: 1.4rem;
+    transition: 0.3s ease;
+}
+
+.mobile-goback-icon {
+    width: 24px;
+    margin-top: -1rem;
+    margin-left: -1rem;
+    transition: 0.3s ease;
 }
 
 .check-icon {
@@ -261,16 +250,12 @@
 /*  575px and Lower - Mobile Sections */
 @media screen and (max-width: 575px) {
 
-    #telegram {
-        position: fixed;
-        bottom: 0.5rem;
-        right: 0.5rem;
-        z-index: 1;
+    .btn-header {
+        display: none;
     }
 
-    .btn-telegram {
-        height: 5rem;
-        width: auto;
+    #btn-mobile-header {
+        display: block;
     }
 
     .btn-buy {
