@@ -37,7 +37,6 @@
 }
 
 .question {
-    user-select: none;
     height: 8rem;
     padding: 0 2rem;
     margin-top: 2.5rem;
@@ -72,7 +71,6 @@
 }
 
 .answer {
-    user-select: none;
     max-height: 0rem;
     padding: 0 2rem;
     display: flex;

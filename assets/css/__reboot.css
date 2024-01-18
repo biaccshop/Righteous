@@ -88,9 +88,9 @@ img {
     --font-family-1: 'Lato', sans-serif;
     --font-family-2: 'Montserrat', sans-serif;
     /* Slider Settings */
-    --slider-card-count: 15;
+    --slider-card-count: 14;
     --slider-card-width: 40rem;
-    --slider-scroll-duration: 45s;
+    --slider-scroll-duration: 42s;
 }
 /* Roots End */
 
