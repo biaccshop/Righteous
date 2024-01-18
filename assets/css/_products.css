@@ -131,19 +131,19 @@
 
 .product-img {
     width: 100%;
-    height: auto;
+    height: 65%;
 }
 
 .product-img i img {
     width: 100%;
     height: 100%;
     border-radius: 5px;
-
+    background-size: cover;
 }
 
 .product-text {
     width: 100%;
-    height: auto;
+    height: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,6 +163,7 @@
 
 .product-button {
     width: 100%;
+    height: 15%;
 }
 
 /*  834px - 1068px - Laptop Sections */
