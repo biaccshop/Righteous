@@ -54,8 +54,16 @@
     background: var(--color-linear-1-2);
     -webkit-background-clip: text;
     color: transparent;
-    font-size: 1.1rem;
-    margin: 0 0.3rem;
+    font-size: 1.4rem;
+    margin: 0 0.1rem;
+}
+
+.footerig-icon {
+    background: var(--color-linear-1-2);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 1.4rem;
+    margin: 0 0.1rem;
 }
 
 /*  576px - 833px - Tablet Sections */
