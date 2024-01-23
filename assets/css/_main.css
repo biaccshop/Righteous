@@ -9,7 +9,7 @@
     height: 100%;
     opacity: 9%;
     z-index: -8;
-    mix-blend-mode: luminosity;
+    filter: grayscale(1);
     overflow: hidden;
     background-image: url("/assets/images/bg-1.webp");
     background-repeat: no-repeat;
@@ -26,7 +26,7 @@
     height: 100%;
     opacity: 50%;
     z-index: -9;
-    mix-blend-mode: luminosity;
+    filter: grayscale(1);
     overflow: hidden;
     background-image: url("/assets/images/bg-2.webp");
     background-repeat: no-repeat;
