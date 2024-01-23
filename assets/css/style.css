@@ -3,13 +3,8 @@
 @import './__grid.css';
 @import './__utilities.css';
 @import './__buttons-icons.css';
-@import './__modal.css';
-@import './_header.css';
 @import './_footer.css';
 @import './_main.css';
-@import './_products.css';
-@import './_faq.css';
-@import './_terms.css';
 
 /* Fonts - Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;700;900&display=swap');

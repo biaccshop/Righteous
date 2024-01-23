@@ -13,45 +13,8 @@
     color: var(--color-text-light);
 }
 
-/* Header button Starting*/
-.btn-header {
-    background-color: var(--color-primary);
-    color: var(--color-text-light);
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0rem 0rem 2rem var(--color-primary);
-}
-
-.btn-header:hover {
-    background-color: var(--color-secondary);
-}
-
-/* Mobile header button Starting*/
-.btn-mobileheader {
-    background-color: var(--color-primary);
-    color: var(--color-text-light);
-    width: 4rem;
-    height: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0rem 0rem 1.5rem var(--color-primary);
-}
-
-.btn-mobileheader:hover {
-    background-color: var(--color-secondary);
-}
-
-#btn-mobile-header {
-    display: none;
-}
-
-/* Order Now button Starting*/
-.btn-ordernow {
+/* Hero button Starting*/
+.btn-hero {
     background-color: var(--color-primary);
     color: var(--color-text-light);
     width: 22rem;
@@ -59,15 +22,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    box-shadow: 0rem 0rem 2rem var(--color-primary);
 }
 
-.btn-ordernow:hover {
-    background-color: var(--color-secondary);
+.btn-hero:hover {
+    background-color: var(--color-primary-hover);
 }
 
-/* Contact us button Starting*/
-.btn-contactus {
+/* Hero 2 button Starting*/
+.btn-hero-2 {
     background-color: var(--color-dark);
     border: 2px solid var(--color-dark-hover);
     color: var(--color-text-light);
@@ -79,122 +41,11 @@
     box-shadow: 0rem 0rem 2rem var(--color-dark);
 }
 
-.btn-contactus:hover {
+.btn-hero-2:hover {
     background-color: var(--color-dark-hover);
 }
 
-/* Product button Starting*/
-.btn-product {
-    color: var(--color-text-light);
-    background-color: var(--color-primary);
-    border-radius: 5px;
-    padding: 0.8rem 1.4rem;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0rem 0rem 1.5rem var(--color-primary);
-}
-
-.btn-product:hover {
-    background-color: var(--color-secondary);
-}
-
-/* Buy button Starting*/
-.btn-buy {
-    background-color: var(--color-primary);
-    color: var(--color-text-light);
-    border-radius: 8px;
-    font-size: 1.5rem;
-    width: 5rem;
-    height: 3.6rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0rem 0rem 1.5rem var(--color-primary);
-}
-
-.btn-buy:hover {
-    background-color: var(--color-secondary);
-}
-
-/* Contact button Starting*/
-.btn-contact {
-    background-color: var(--color-primary);
-    color: var(--color-text-light);
-    width: 22rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0rem 0rem 2rem var(--color-primary);
-}
-
-.btn-contact:hover {
-    background-color: var(--color-secondary);
-}
-
 /* Icons Starting */
-.bag-icon {
-    margin-top: 0.6rem;
-    margin-right: 0.8rem;
-    transition: 0.3s ease;
-}
-
-.line-icon {
-    margin-top: 0.7rem;
-    margin-right: 1.3rem;
-}
-
-.user-icon {
-    width: 18px;
-    margin-top: 0.8rem;
-    margin-right: 1.2rem;
-    transition: 0.3s ease;
-}
-
-.mobile-user-icon {
-    width: 24px;
-    margin-top: auto;
-    margin-top: 0.5rem;
-    margin-left: 0.4rem;
-    transition: 0.3s ease;
-}
-
-.goback-icon {
-    width: 24px;
-    margin-top: 0.8rem;
-    margin-right: 1.4rem;
-    transition: 0.3s ease;
-}
-
-.mobile-goback-icon {
-    width: 24px;
-    margin-top: -1rem;
-    margin-left: -1rem;
-    transition: 0.3s ease;
-}
-
-.check-icon {
-    margin-right: 1.4rem;
-}
-
-.reviewstar-icon {
-    width: 20px;
-    height: auto;
-    margin-right: 0.5rem;
-}
-
-.reviewcheckmark-icon {
-    width: 15px;
-    height: auto;
-    margin-top: 0.3rem;
-    margin-right: 1.5rem;
-}
-
 .rightarrow-icon {
     margin-left: 1.2rem;
 }
@@ -207,78 +58,12 @@
     margin: 0 0.3rem;
 }
 
-/* Black Bar button and icon Starting*/
-#btn-blackbar {
-    display: none;
-    cursor: pointer;
-}
-
-#btn-blackbar.active #blackbarbutton-icon {
-    transform: rotate(90deg);
-}
-
-#btn-blackbar:hover,
-#btn-blackbar:hover #blackbarbutton-icon {
-    color: var(--color-text-light);
-}
-
-#blackbarbutton-icon {
-    color: var(--color-text-hover);
-    transition: 0.3s ease;
-    font-size: 3rem;
-}
-
 /*  576px - 833px - Tablet Sections */
 @media screen and (min-width: 576px) and (max-width: 833px) {
-    .btn-header {
-        padding: 0.5rem 1.6rem;
-    }
-
-    .reviewstar-icon {
-        width: 15px;
-        height: auto;
-        margin-right: 0.5rem;
-    }
-
-    .reviewcheckmark-icon {
-        width: 15px;
-        height: auto;
-        margin-top: 0.3rem;
-        margin-right: 1.5rem;
-    }
+    
 }
 
 /*  575px and Lower - Mobile Sections */
 @media screen and (max-width: 575px) {
 
-    .btn-header {
-        display: none;
-    }
-
-    #btn-mobile-header {
-        display: block;
-    }
-
-    .btn-buy {
-        font-size: 1.4rem;
-        width: 4.5rem;
-        height: 3rem;
-    }
-
-    .btn-contact {
-        width: 100%;
-    }
-
-    .reviewstar-icon {
-        width: 10px;
-        height: auto;
-        margin-right: 0.3rem;
-    }
-
-    .reviewcheckmark-icon {
-        width: 10px;
-        height: auto;
-        margin-top: 0.3rem;
-        margin-right: 1rem;
-    }
 }
